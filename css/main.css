@@ -75,7 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin: calc((--default-spacing)*4) var(--default-spacing);
+    margin: calc(var(--default-spacing)*4) var(--default-spacing);
 }
 
 .main-content .main-container {
