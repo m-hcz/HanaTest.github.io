@@ -1,0 +1,9 @@
+a {
+    position: relative;
+    padding: 3px 0;
+    color: var(--color-text);
+    fill: var(--color-text);
+    cursor: pointer;
+    border-bottom: solid 1px var(--color-text);
+}
+

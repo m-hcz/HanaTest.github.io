@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans" rel="stylesheet">
+
+    <title>Hana</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="main">
+            <div class="sidebar">
+                <div onclick=hideSidebar() class="blur-bg">
+                    <div class="sidebar-panel">
+                        <img class="img-close-button" src="assets/icons/icon-close-button.svg" onclick=hideSidebar()
+                            alt="">
+                        <ul>
+                            <li><a onclick=hideSidebar() href="galerie">Moje práce</a></li>
+                            <li><a onclick=hideSidebar() href="sluzby">Služby a ceník</a></li>
+                            <li><a onclick=hideSidebar() href="kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <a href="/" style="border: none;">
+                    <img class="main-logo" src="assets/images/profile/img-main-logo.svg"
+                        alt="msharp m# IT development design csharp c# ios .net windows apple web">
+                </a>
+                <ul>
+                    <li class="hide-on-mobile"><a href="galerie">Moje práce</a></li>
+                    <li class="hide-on-mobile"><a href="sluzby">Služby a ceník</a></li>
+                    <li class="hide-on-mobile"><a href="kontakt">Kontakt</a></li>
+                    <li class="menu-button" onclick=showSidebar()>
+                        <img src="assets/icons/icon-burger.svg">
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="gallery-content">
+                <h1 class="content-title">Galerie</h1>
+                <div class="gallery-container">
+                    <div class="gallery">
+                        <h3>Svatby</h3>
+                        <div class="image-carousel">
+                            <div class="image-slide slide-left">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                            </div>
+                            <div class="image-slide slide-left">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              </div>
+                          </div>
+                    </div>
+                    <div class="gallery">
+                        <h3>Rodiny</h3>
+                        <div class="image-carousel">
+                            <div class="image-slide slide-right">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                            </div>
+                            <div class="image-slide slide-right">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              </div>
+                          </div>
+                    </div>
+                    <div class="gallery">
+                        <h3>Svatby</h3>
+                        <div class="image-carousel">
+                            <div class="image-slide slide-left">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                            </div>
+                            <div class="image-slide slide-left">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                                <img src="https://dummyimage.com/600x400/8d94d9/5e5e5e.png">
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <p class="name">Hana</p>
+                <p>Fotografie</p>
+            </div>
+            <div>
+                <p class="contact-item">
+                    <img src="assets/icons/icon-phone.svg">&nbsp; +000 000 000 000
+                </p>
+                <a class="contact-item" href="mailto:">
+                    <img src="assets/icons/icon-email.svg">&nbsp; email@email.cz
+                </a>
+            </div>
+            <div>
+                <a class="contact-item" href="mailto:">
+                    <img src="assets/icons/icon-fb.svg">&nbsp; facebook
+                </a>
+                <a class="contact-item" href="mailto:">
+                    <img src="assets/icons/icon-ig.svg">&nbsp; instagram
+                </a>
+            </div>
+            <div>
+                <p>Copyright Ⓒ <span id="year"></span>. All Rights Reserved.</p>
+                <p>Developed by <a target="_blank" href="https://msharp.cz/">MSharp.cz</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
